@@ -1,0 +1,289 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+.max3dPlusDivLogo{
+    position: relative;
+    height: 53px;
+}
+.max3dPlusDivLogo .luckeybets{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.max3dPlusDivLogo .max3dPlus{
+    position: absolute;
+    right: 0;
+}
+.max3dPlusCircleOrderBao .form-group{
+    margin-bottom: 5px;
+}
+.max3dPlusCircle{
+    border-top: #999999 solid 1px;
+    padding-top: 10px;
+}
+.max3dPlusCircle .key {
+    color: red; 
+    font-size: 17px; 
+    margin-right: 11px;
+    font-weight: bold;    
+}
+.max3dPlusCircle .step {
+    border: red solid 1px;
+    border-radius: 1.1em;
+    -moz-border-radius: 1.1em;
+    -webkit-border-radius: 1.1em;
+    color: #464646;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.2em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 5.2em;
+    height: 2.2em;
+    cursor: pointer;
+}
+.max3dPlusCircle .step_btn {
+    border: #eea236 solid 1px;
+    border-radius: 1.1em;
+    -moz-border-radius: 1.1em;
+    -webkit-border-radius: 1.1em;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.2em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #eea236;
+    cursor: pointer;
+}
+.modal-dialog {
+    max-width: 565px;
+}
+.panel-group{
+    margin-bottom: 0;
+}
+.panel-danger {
+    border-color: #82005d;
+}
+.panel-heading {
+    background: url(../../static/img/common/max3dPlus_jackpot_bg.png) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.panel-body{
+    min-height: 530px;
+    height: -moz-calc(100vh - 75px);
+    height: -webkit-calc(100vh - 75px);
+    height: -o-calc(100vh - 75px);
+    height: calc(100vh - 75px);
+}
+.noselect-body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.max3dPlusMuabaoBasket{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.max3dPlusMuabaoBasket img{
+    cursor: pointer;
+}
+.max3dPlusMuabaoBasket .step-basket {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border: red solid 1px;
+    border-radius: 0.6em;
+    background-color: #ffff00;
+    -moz-border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    color: #464646;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+}
+.modal-dialog {
+    width: 92%;
+}
+.max3dPlusCircleModal{
+    position: relative;
+}
+.max3dPlusCircleModal .step_sel {
+    border: red solid 1px;
+    border-radius: 1.2em;
+    -moz-border-radius: 1.2em;
+    -webkit-border-radius: 1.2em;
+    color: #464646;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.4em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 2.4em;
+    height: 2.4em;
+    cursor: pointer;
+}
+.max3dPlusCircleModal .key_sel {
+    color: red; 
+    font-size: 17px; 
+    margin-right: 11px;
+    font-weight: bold;    
+}
+.max3dPlusDivBorderModal{
+    border-right: 1px solid gray; 
+    margin-top: 5px; 
+    margin-bottom: 10px;
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (device-width: 414px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .panel-body{
+        min-height: 590px;
+    }
+    .max3dPlusCircle .step {
+        border: red solid 1px;
+        border-radius: 1.4em;
+        -moz-border-radius: 1.4em;
+        -webkit-border-radius: 1.4em;
+        color: #464646;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 2.8em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 5.8em;
+        height: 2.8em;
+        cursor: pointer;
+    }
+    .max3dPlusCircleModal .step_sel {
+        border: red solid 1px;
+        border-radius: 1.4em;
+        -moz-border-radius: 1.4em;
+        -webkit-border-radius: 1.4em;
+        color: #464646;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 2.8em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 2.8em;
+        height: 2.8em;
+        cursor: pointer;
+    }
+    .max3dPlusCircle .step_btn {
+        border: #eea236 solid 1px;
+        border-radius: 1.4em;
+        -moz-border-radius: 1.4em;
+        -webkit-border-radius: 1.4em;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 2.8em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 5.8em;
+        height: 2.8em;
+        background-color: #eea236;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .max3dPlusCircle .step {
+        border: red solid 1px;
+        border-radius: 1em;
+        -moz-border-radius: 1em;
+        -webkit-border-radius: 1em;
+        color: #464646;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 2em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 4.5em;
+        height: 2em;
+        cursor: pointer;
+    }
+    .max3dPlusCircleModal .step_sel {
+        border: red solid 1px;
+        border-radius: 1em;
+        -moz-border-radius: 1em;
+        -webkit-border-radius: 1em;
+        color: #464646;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.6em;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+        width: 1.6em;
+        height: 1.6em;
+        cursor: pointer;
+    }
+    .max3dPlusCircle .step_btn {
+        border: #eea236 solid 1px;
+        border-radius: 1em;
+        -moz-border-radius: 1em;
+        -webkit-border-radius: 1em;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 2em;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 2em;
+        height: 2em;
+        background-color: #eea236;
+        cursor: pointer;
+    }
+    .max3dPlusDivBorderModal{
+        border-right: 1px solid gray; 
+        margin-top: 5px; 
+        margin-bottom: 20px;
+    }
+}

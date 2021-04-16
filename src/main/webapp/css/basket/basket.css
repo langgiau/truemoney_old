@@ -1,0 +1,144 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+.noselect-body {    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.panel-heading {
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.basketCircle{
+    padding-top: 10px;
+}
+.basketCircle .key {
+    color: red; 
+    font-size: 15px; 
+    margin-right: 11px;
+    font-weight: bold;    
+}
+.basketCircle .step {
+    border: white solid 1px;
+    border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -webkit-border-radius: 0.7em;
+    color: #464646;
+    display: inline-block;
+    font-weight: bold;
+    line-height:1.4em;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+    width: 1.4em;
+    height: 1.4em;
+    z-index: 9999;
+}
+.basketCircle .step_btn {
+    border: #a9a9a9 solid 1px;
+    border-radius: 0.9em;
+    -moz-border-radius: 0.9em;
+    -webkit-border-radius: 0.9em;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.8em;
+    margin-right: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 1.8em;
+    height: 1.8em;
+    background-color: #a9a9a9;
+    cursor: pointer;
+    z-index: 9999;
+
+}
+.basket-group-baobao {
+    position: relative;
+    background-color: white;
+    padding: 0.01em 16px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    z-index: 9999;
+}
+.basket-group-baobao img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+.basket-border-top{
+    padding-top: 10px;
+    border-top: #a9a9a9 solid 1.5px;
+}
+.basket-font-size-ky{
+    font-size: 12px;
+}
+.basket-font-size-money{
+    font-size: 12px;
+}
+.basketCircle table tr, td {
+    padding-bottom: 3px;
+}
+.panel-group{
+    margin: 0;
+}
+.panel-body{
+    position: relative; 
+    background-color: #e9eaec;
+    overflow-y: auto;
+    max-height: calc(88vh - 128px);
+    max-height: -moz-calc(88vh - 128px);
+    max-height: -webkit-calc(88vh - 128px);    
+    min-height: -moz-calc(88vh - 128px);
+    min-height: -webkit-calc(88vh - 128px);
+    min-height: -o-calc(88vh - 128px);
+    min-height: calc(88vh - 128px);
+}
+.panel-footer .form-group{
+    margin-bottom: 5px;   
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active {
+    text-decoration: none;
+    color: orange;
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .basket-font-size-ky{
+        font-size: 11px;
+    }
+    .basket-font-size-money{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,185 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+a {
+    outline: 0;
+}
+.bulkDivLogo{
+    position: relative;
+    height: 53px;
+}
+.bulkDivLogo .luckeybets{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bulkDivLogo .bulk{
+    position: absolute;
+    right: 0;
+}
+.bulkCircleOrderBao .form-group{
+    margin-bottom: 5px;
+}
+.bulkCircle{
+    border-top: #999999 solid 1px;
+    padding-top: 10px;
+}
+.modal-dialog {
+    max-width: 565px;
+}
+.panel-group{
+    margin-bottom: 0;
+}
+.panel-danger {
+    border-color: #2c740d;
+}
+.panel-heading {
+    background: url(../../static/img/common/bulk_jackpot_bg.png) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.panel-body{
+    min-height: 550px;
+    height: -moz-calc(100vh - 75px);
+    height: -webkit-calc(100vh - 75px);
+    height: -o-calc(100vh - 75px);
+    height: calc(100vh - 75px);
+}
+.noselect-body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.bulkMuabaoBasket{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.bulkMuabaoBasket img{
+    cursor: pointer;
+}
+.bulkMuabaoBasket .step-basket {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border: red solid 1px;
+    border-radius: 0.6em;
+    background-color: #ffff00;
+    -moz-border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    color: #464646;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+}
+.modal-dialog {
+    width: 92%;
+}
+.bulkCircleModal{
+    position: relative;
+}
+.bulkOptRadioSelected{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #2c740d;
+}
+.bulkOptRadioSelected .textBulk{
+    position: absolute;
+    left: 35%;
+    top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bulkOptRadioSelected .logoTicherBulk{
+    position: absolute;
+    left: 4%;
+    top: 2px;
+}
+.bulkOptRadioSelected .buttonRight{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.SelectBox {
+    padding: 6px 13px;
+}
+.SumoSelect > .CaptionCont {
+    border: 1px solid #2c740d;
+}
+.bulkButtonCustom{
+    border: 1px solid #2c740d;
+    border-radius: 2px;
+}
+#bulkModelSelectMoneyForm .radioCss{
+    border: 1px solid #2c740d;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    padding-right: 6px;
+    width: 100%;
+}
+#bulkModelSelectMoneyForm .labelSokhacCss{
+    color: black; 
+    font-weight: bold; 
+    font-size: 16px; 
+    float: left; 
+    padding-left: 15px;
+}
+#bulkModelFormInfoNote ul {
+    padding-left: 20px;
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (device-width: 414px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .panel-body{
+        min-height: 590px;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    #bulkModelSelectMoneyForm .labelSokhacCss{
+        color: black; 
+        font-weight: bold; 
+        font-size: 16px; 
+        float: left; 
+        padding-left: 3px;
+    }
+}

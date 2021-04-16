@@ -1,0 +1,52 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+.noselect-body {    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.panel-heading {
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.panel-group{
+    margin: 0;
+}
+.panel-body{
+    background-color: #e9eaec;
+    padding-top: 50px;
+    min-height: 420px;
+    height: -moz-calc(100vh - 75px);
+    height: -webkit-calc(100vh - 75px);
+    height: -o-calc(100vh - 75px);
+    height: calc(100vh - 75px);
+}
+.panel-footer{
+    background-color: #f5f5f5;
+    /*padding: 5px 5px;*/
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .modal-dialog {
+        width: 92%;
+    }
+}

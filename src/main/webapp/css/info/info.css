@@ -1,0 +1,23 @@
+.infoDivLogo{
+    position: relative;
+    height: 53px;
+}
+.infoDivLogo .luckeybets{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.infoDivLogo .vnpay{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.textColor{
+    color: green;
+}
+.textColorBlue{
+    color: blue;
+}
+code {
+    font-family: monospace;
+}

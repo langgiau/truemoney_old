@@ -1,0 +1,287 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+.panel-group{
+    margin-bottom: 0;
+}
+.carousel-inner{
+    width: 100%;
+    height: 153px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-indicators{
+    bottom: -28px;
+}
+.panel-heading {
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.panel-body{
+    background-color: #ee1d30;
+    padding-top: 15px;
+    min-height: 560px;
+    height: -moz-calc(100vh - 153px);
+    height: -webkit-calc(100vh - 153px);
+    height: -o-calc(100vh - 153px);
+    height: calc(100vh - 153px);
+}
+#homeDivModalDieukhoanBodyText{
+    overflow-y: auto;
+    padding: 10px;
+    height: 400px;
+}
+#homeDivModalDieukhoanBodyText ul, ol{
+    padding-left: 15px;
+}
+.noselect-body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+#homeDivModalDieukhoan .modal-header {
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#homeDivModalDieukhoan .modal-header .close{
+    margin-top: -7px;
+}
+.homeDivTicker{
+    margin: 2px;
+    height: 62px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.homeDivTicker:active{
+    background-color: orange;
+}
+.homeDivTicker .text{
+    position: absolute;
+    left: 30%;
+    top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+.homeDivTicker .textHis{
+    position: absolute;
+    left: 30%;
+    top: 21px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.homeDivTicker .logoTicherHis{
+    position: absolute;
+    left: 6.5%;
+    top: 7px;
+}
+.homeDivTicker .textBulk{
+    position: absolute;
+    left: 30%;
+    top: 21px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.homeDivTicker .logoTicherBulk{
+    position: absolute;
+    left: 6.5%;
+    top: 7px;
+}
+.homeDivTicker .logoTicher{
+    position: absolute;
+    left: 3%;
+    top: 7px;
+}
+.homeDivTicker .buttonRight{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    height: 56px;
+    width: 35px;    
+    padding-top: 19px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.homeHisDivTicker{
+    margin: 2px;
+    height: 80px;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    width: 48%;
+    display: inline-block;
+}
+.homeHisDivTicker:active{
+    background-color: orange;
+}
+.homeHisDivTicker .text{
+    position: absolute;
+    left: 30%;
+    top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+.homeHisDivTicker .textHis{
+    position: absolute;
+    left: 25%;
+    top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.homeHisDivTicker .logoTicherHis{
+    position: absolute;
+    left: 2%;
+    top: 7px;
+}
+.homeHisDivTicker .textBulk{
+    position: absolute;
+    left: 30%;
+    top: 21px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.homeHisDivTicker .logoTicherBulk{
+    position: absolute;
+    left: 6.5%;
+    top: 7px;
+}
+.homeHisDivTicker .logoTicher{
+    position: absolute;
+    left: 3%;
+    top: 7px;
+}
+.homeHisDivTicker .buttonRight{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    height: 76px;
+    width: 20px;
+    padding-top: 31px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    /*    #containerMob{
+            display: block;
+        }*/
+    #containerDesk{
+        display: none;
+    }
+    .container {
+        width: 370px;
+        padding: 0;
+    }
+}
+@media screen and (max-device-width: 1279px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    /*    #containerMob{
+            display: block;
+        }*/
+    #containerDesk{
+        display: none;
+    }
+    .container {
+        width: 370px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .homeDivTicker .logoTicher{
+        position: absolute;
+        right: 18%;
+        top: 13px;
+    }
+    /*    #containerMob{
+            display: block;
+        }*/
+    #containerDesk{
+        display: none;
+    }
+
+}
+
+/*@media (min-width: 1280px) and (max-width: 1439px) {
+    #containerMob{
+        display: none;
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .h-100{
+        height: 100%;
+    }
+    .panel-body {
+        background-color: unset;
+    }
+    .col-md-3{
+        padding: 0;
+        width: 20%;
+
+    }
+    .step{
+        width: 1.5em !important;
+        height: 1.5em !important;
+        line-height: 1.5em !important;
+    }
+    .row.h-100{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .input-sm, .form-group-sm .form-control {
+        height: 30px;
+        padding: 5px 0px;
+    }
+    .btn {
+    padding: 6px 0px;
+    font-size: 14px;
+    }
+
+}*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <!-- Base Definition -->
+    <definition name="base-definition" template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">
+        <put-attribute name="header" value=""/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value=""/>
+    </definition>
+    <!--thongkevip-->
+    <definition name="thongkevip" template="/WEB-INF/views/pages/iframe/thongkevip.jsp">
+    </definition>
+
+    <!--cocaugiaibaokeno-->
+    <definition name="cocaugiaibaokeno" template="/WEB-INF/views/pages/iframe/cocaugiaibaokeno.jsp">
+    </definition>
+    <definition name="403_Page" template="/WEB-INF/views/pages/error/403_Page.jsp">
+    </definition>
+
+    <definition name="404_Page" template="/WEB-INF/views/pages/error/404_Page.jsp">
+    </definition>
+
+    <definition name="500_Page" template="/WEB-INF/views/pages/error/500_Page.jsp">
+    </definition>
+
+    <definition name="mid_Page" template="/WEB-INF/views/pages/error/mid_Page.jsp">
+    </definition>
+
+    <!--home-->
+    <definition name="home" template="/WEB-INF/views/pages/home/home.jsp">
+    </definition>
+
+    <!--thongkevip-->
+    <definition name="thongkevip" template="/WEB-INF/views/pages/iframe/thongkevip.jsp">
+    </definition>
+
+<!--cocaugiaibaokeno-->
+    <definition name="cocaugiaibaokeno" template="/WEB-INF/views/pages/iframe/cocaugiaibaokeno.jsp">
+    </definition>
+
+    <!--bulk-->
+    <definition name="bulk" template="/WEB-INF/views/pages/bulk/bulk.jsp">
+    </definition>
+
+    <!--power655-->
+    <definition name="power655" template="/WEB-INF/views/pages/power655/power655.jsp">
+    </definition>
+
+    <!--mega645-->
+    <definition name="mega645" template="/WEB-INF/views/pages/mega645/mega645.jsp">
+    </definition>
+
+    <!--max4d-->
+    <definition name="max4d" template="/WEB-INF/views/pages/max4d/max4d.jsp">
+    </definition>
+
+    <!--max3d-->
+    <definition name="max3d" template="/WEB-INF/views/pages/max3d/max3d.jsp">
+    </definition>
+
+    <!--ommax3dplus-->
+    <definition name="ommax3dplus" template="/WEB-INF/views/pages/ommax3dPlus/ommax3dPlus.jsp">
+    </definition>
+
+    <!--max3dplus-->
+    <definition name="max3dplus" template="/WEB-INF/views/pages/max3dPlus/max3dPlus.jsp">
+    </definition>
+
+    <!--basket-->
+    <definition name="basket" template="/WEB-INF/views/pages/basket/basket.jsp">
+    </definition>
+
+    <!--receive-->
+    <definition name="receive" template="/WEB-INF/views/pages/receiveTicker/receiveTicker.jsp">
+    </definition>
+
+    <!--history-->
+    <definition name="history" template="/WEB-INF/views/pages/history/history.jsp">
+    </definition>
+
+    <definition name="history_keno" template="/WEB-INF/views/pages/history/historyKeno.jsp">
+    </definition>
+    <!--detail-->
+    <definition name="historyDetail" template="/WEB-INF/views/pages/history/historyDetail.jsp">
+    </definition>
+
+    <!--compare-->
+    <definition name="historyCompare" template="/WEB-INF/views/pages/history/historyCompare.jsp">
+    </definition>
+
+    <!--detail-->
+    <definition name="historyLogin" template="/WEB-INF/views/pages/history/historyLogin.jsp">
+    </definition>
+
+    <!--info-->
+    <definition name="info" template="/WEB-INF/views/pages/info/info.jsp">
+    </definition>
+
+    <!--keno-->
+    <definition name="keno" template="/WEB-INF/views/pages/keno/keno.jsp">
+    </definition>
+
+    <!--keno_bao-->
+    <definition name="keno_bao" template="/WEB-INF/views/pages/keno/keno_bao.jsp">
+    </definition>
+
+    <!--group-->
+    <definition name="group" template="/WEB-INF/views/pages/group/group_home.jsp">
+    </definition>
+
+    <!--group_not_done-->
+    <definition name="group_not_done" template="/WEB-INF/views/pages/group/group_not_done.jsp">
+    </definition>
+
+    <!--history_choinhom-->
+    <definition name="history_choinhom" template="/WEB-INF/views/pages/group/history_choinhom.jsp">
+    </definition>
+
+    <!--group_done-->
+    <definition name="group_done" template="/WEB-INF/views/pages/group/group_done.jsp">
+    </definition>
+
+    <!--group_detail-->
+    <definition name="group_detail" template="/WEB-INF/views/pages/group/group_detail.jsp">
+    </definition>
+
+    <!--group_join-->
+    <definition name="group_join" template="/WEB-INF/views/pages/group/group_join.jsp">
+    </definition>
+
+    <!--group_top-->
+    <definition name="group_top" template="/WEB-INF/views/pages/group/group_top.jsp">
+    </definition>
+
+    <!--group_detail_top-->
+    <definition name="group_detail_top" template="/WEB-INF/views/pages/group/group_detail_top.jsp">
+    </definition>
+
+    <!--accPrizeHistory-->
+    <definition name="accPrizeHistory" template="/WEB-INF/views/pages/history/accPrizeHistory.jsp">
+    </definition>
+</tiles-definitions>

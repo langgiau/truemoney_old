@@ -1,0 +1,148 @@
+.modal-header h4 {
+    font-size: 15px;
+}
+.modal-title {
+    line-height: 0.7;
+}
+.close {
+    font-size: 31px;
+    line-height: 0.5;
+}
+.modal .nav-tabs>li>a {
+    margin-right: 0;
+    line-height: 7px;
+    border-radius: 0;
+}
+#commonPosMap{
+    height: 400px;
+    width:100%;
+}
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+#infowindow-content .title {
+    font-weight: bold;
+}
+#infowindow-content {
+    display: none;
+}
+#commonPosMap #infowindow-content {
+    display: inline;
+}
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 29px;
+    text-overflow: ellipsis;
+    width: 320px;
+    margin-top: 10px;
+}
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+#target {
+    width: 345px;
+}
+.modal{
+    z-index: 99999;   
+}
+div.tooltip-inner {
+    max-width: 350px;
+}
+.form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.panel-danger {
+    border-color: red;
+}
+
+@media screen and (max-device-width: 600px) {
+    .bootbox .modal-dialog{
+        width: 90%;
+    }
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.panel-group .panel {
+    border-radius: 0;
+}
+.panel-heading {
+     border-top-left-radius: 0; 
+     border-top-right-radius: 0; 
+}
+.optWrapper .btnOk{
+    display: none;
+    /*background-color: red*/
+}
+.optWrapper .btnCancel{
+    display: none;
+    /*background-color: red*/
+}

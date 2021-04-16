@@ -1,0 +1,13 @@
+#notifications {
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    z-index: 999999;
+    top: 1px;
+    margin-bottom: 22px;
+    margin-right: 15px;
+    max-width: 700px;   
+}
+.SumoUnder{
+    height: 100% !important;
+}

@@ -1,0 +1,122 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+.noselect-body {    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+#detailBkgRoot.panel-heading{
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#receiveTickerModalReportErr .modal-header{
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.panel-body{
+    padding: 0;
+}
+a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.detail-group-baobao {
+    position: relative;
+    background-color: white;
+    padding: 0.01em 16px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    z-index: 1;
+    min-height: 120px;
+    width: 100%;
+}
+.detail-group-baobao img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.6;
+    z-index: -1;    
+}
+.detailCircle{
+    padding-top: 10px;
+}
+.detailCircle .key {
+    color: red; 
+    font-size: 15px; 
+    margin-right: 11px;
+    font-weight: bold;    
+}
+.detailCircle .step {
+    border: white solid 1px;
+    border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -webkit-border-radius: 0.7em;
+    color: #464646;
+    display: inline-block;
+    font-weight: bold;
+    line-height:1.4em;
+    margin-right: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 1.4em;
+    height: 1.4em;
+    z-index: 9999;
+}
+.image {
+    width: 100%;
+    height: 160px;
+}
+.object-fit_cover {
+    object-fit: cover;
+}
+.carousel-indicators{
+    bottom: -16px;
+}
+.carousel-indicators li {
+    background-color: blue;
+}
+.carousel-indicators .active {
+    background-color: red;
+}
+#receiveTickerModalReportErr textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    #receiveTickerModalReportErr .modal-dialog{
+        width: 90%;
+    }
+}
+.blackListRow{
+    line-height: 2.0em;
+}

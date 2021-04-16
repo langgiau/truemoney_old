@@ -1,0 +1,93 @@
+.container {
+    width: 370px;
+    padding: 0;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ec1b30;
+    border-color: #ec1b30;
+}
+.noselect-body {    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.panel-heading {
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#receiveTickerModalQuyDinh .modal-header {
+    background: url(../../static/img/common/pow655_jackpot_bg.jpg) no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#receiveTickerModalQuyDinh .modal-header .close{
+    margin-top: -7px;
+}
+.panel-group{
+    margin: 0;
+}
+.panel-body{
+    background-color: #e9eaec;
+    padding-bottom: 0;
+    min-height: 445px;
+    height: -moz-calc(88vh - 112px);
+    height: -webkit-calc(88vh - 112px);
+    height: -o-calc(88vh - 112px);
+    height: calc(88vh - 112px);
+}
+.panel-footer{
+    background-color: #f5f5f5;
+    /*padding: 5px 5px;*/
+}
+.panel-footer .form-group{
+    margin-bottom: 0;   
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active {
+    text-decoration: none;
+    color: orange;
+}
+#receiveTickerShowHide .form-group{
+    margin-bottom: 10px;
+}
+.form-horizontal .form-group{
+    margin-bottom: 5px;
+}                   
+.form-horizontal .control-label {
+    padding-top: 3px;
+}
+#receiveTickerModalQuyDinhBodyText{
+    overflow-y: auto;
+    height: 400px;
+    padding: 10px;
+}
+#receiveTickerModalQuyDinhBodyText ul, ol{
+    padding-left: 15px;
+}
+
+@media screen and (max-device-width: 568px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .modal-dialog {
+        width: 92%;
+    }
+}

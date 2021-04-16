@@ -1,0 +1,63 @@
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    transition: all 0.15s ease-out 0s;
+    background: #ffffff;
+    border: 1px solid #2c740d;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+}
+input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
+    outline: none;
+}
+.option-input:hover {
+    /*background: #9faab7;*/
+}
+.option-input:checked {
+    background: red;
+    border: 1px solid red;
+}
+.option-input:checked::before {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    /*content: '✔';*/
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+.option-input.radio {
+    border-radius: 50%;
+}
+.option-input.radio::after {
+    border-radius: 50%;
+}
